@@ -1,0 +1,23 @@
+h2 {
+    text-align: center;
+}
+
+.outer {
+    height: 500px;
+    width: 1200px;
+    background-color: aliceblue;
+    border: 2px solid lightblue;
+    margin: 0 auto;
+    display: flex;
+}
+
+.inner {
+    height: 40px;
+    width: 340px;
+    background-color: rgb(207, 157, 255);
+    border: 2px solid violet;
+}
+
+.zero {
+    align-self: flex-end;
+}

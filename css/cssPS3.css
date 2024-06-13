@@ -1,0 +1,24 @@
+/* Question 1 */
+#q1 {
+    height: 150px;
+    width: 300px;
+    background-color: grey;
+    border: 5px dotted black;
+    margin: 20px 1em 40px 2em;
+    padding: 1em;
+}
+
+/* Question 2 */
+.q2 {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* Question 3 */
+li {
+    display: inline;
+}

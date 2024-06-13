@@ -1,0 +1,40 @@
+#outer {
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: relative;
+}
+
+.eyes {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    display: inline-block;
+    position: absolute;
+    top: 75px;
+    border-radius: 50%;
+}
+
+#left {
+    left: 75px;
+}
+
+#right {
+    right: 75px;
+}
+
+#smile {
+    height: 40px;
+    width: 150px;
+    background-color: red;
+    position: absolute;
+    bottom: 75px;
+    left: 75px;
+    transition-property: border-radius;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+#smile:hover {
+    border-radius: 0 0 40px 40px;
+}

@@ -1,0 +1,14 @@
+.one {
+    height: 150px;
+    width: 150px;
+    background: linear-gradient(.25turn, #3f87a6, #ebf8e1, #f63c3c);
+    border-radius: 50%;
+    transition-property: transform, border-radius;
+    transition-duration: 2s;
+    /* transition-delay: .5s; */
+    transition-timing-function: ease;
+}
+
+.one:hover {
+    transform: translateX(100px) scale(.5) skew(30deg, 45deg) rotate(1turn);
+}

@@ -1,0 +1,24 @@
+div {
+    height: 300px;
+    width: 300px;
+    background-color: blanchedalmond;
+    border-width: 3px;
+    border-style: double;
+    border-color: red;
+    margin: 10px 20px 30px;
+    padding: 10px;
+}
+
+h1 {
+    border: 2px dashed green;
+    border-inline-color: black;
+    border-inline-style: solid;
+    border-radius: 16px;
+}
+
+button {
+    padding: 5px;
+    border-radius: 11px;
+    background-color: #B1C1C0;
+    color: #3B28CC;
+}
