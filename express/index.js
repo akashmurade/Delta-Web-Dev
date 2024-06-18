@@ -1,6 +1,9 @@
 const express = require('express');
 const app = express();
 
+// if we have package.json we can run npm install to get all the node_modules files back
+// therefore no need to upload it to github
+
 let port = 3000;
 
 // listen method takes a port number and calls the callback
