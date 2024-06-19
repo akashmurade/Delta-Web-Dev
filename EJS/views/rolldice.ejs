@@ -1,0 +1,9 @@
+<%- include('includes/head.ejs') %>
+<body>
+    <h1>Roll Dice</h1>
+    <p>Value: <%= ranVal %></p>
+    <% if (ranVal == 6) { %>
+        <h2>Lucky! Roll Dice again.</h2>
+    <% } %>
+</body>
+</html>
