@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show Users</title>
+</head>
+<body>
+    <h1>User App</h1>
+    <table border="black">
+        <tr>
+            <th>id</th>
+            <th>username</th>
+            <th>email</th>
+            <th>Edit</th>
+        </tr>
+        <% for(user of result) { %>
+            <tr>
+                <td><%= user.id %></td>
+                <td><%= user.username %></td>
+                <td><%= user.email %></td>
+                <th>
+                    <form action="/user/<%= user.id %>/edit">
+                        <button>Edit</button>
+                    </form>
+                </th>
+            </tr>
+        <% } %>
+    </table>
+</body>
+</html>
