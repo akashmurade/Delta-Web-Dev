@@ -8,7 +8,7 @@
   <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-xs-1">
     <% for(listing of allListings) { %>
     <a href="/listings/<%= listing._id %>" class="listing-link">
-      <div class="card col">
+      <div class="card col listings-card">
         <img
           src="<%= listing.image %>"
           class="card-img"
@@ -19,7 +19,7 @@
         <div class="card-body">
           <h5 class="card-title"><%= listing.title %></h5>
           <p class="card-text">
-            &#8377;<%= listing.price.toLocaleString() %> / night
+            &#8377;<%= listing.price.toLocaleString("en-IN") %> / night
           </p>
         </div>
       </div>

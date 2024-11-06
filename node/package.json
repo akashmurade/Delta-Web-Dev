@@ -10,6 +10,7 @@
   "description": "",
   "type": "module",
   "dependencies": {
+    "node": "file:",
     "random-words": "^2.0.1"
   }
 }
