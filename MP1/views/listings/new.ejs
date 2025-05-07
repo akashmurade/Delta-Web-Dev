@@ -7,6 +7,7 @@
         action="/listings"
         method="post"
         class="needs-validation"
+        enctype="multipart/form-data"
         novalidate
       >
         <div class="mb-3">
@@ -35,15 +36,14 @@
           <div class="invalid-feedback">Description is required.</div>
         </div>
         <div class="mb-3">
-          <label for="image" class="form-label"> Image URL: </label>
+          <label for="image" class="form-label"> Upload Listing Image: </label>
           <input
-            type="url"
+            type="file"
             name="listing[image]"
             id="image"
-            placeholder="Enter image url"
             class="form-control"
+            required
           />
-          <div class="invalid-feedback">Image is required.</div>
         </div>
         <div class="row">
           <div class="mb-3 col-md-4">

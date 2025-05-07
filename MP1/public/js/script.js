@@ -21,3 +21,11 @@
     );
   });
 })();
+
+let taxSwitch = document.getElementById("taxSwitch");
+taxSwitch.addEventListener("change", () => {
+  let taxInfo = document.getElementsByClassName("tax-info");
+  for (info of taxInfo) {
+    info.classList.toggle("hidden");
+  }
+});
